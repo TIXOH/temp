@@ -1,0 +1,57 @@
+@import "reset.css";
+@import "menu-style.css";
+@import "home-style.css";
+@import "services-style.css";
+@import "about-style.css";
+@import "portfolio-style.css";
+@import "contacts-style.css";
+
+
+ body {
+    color: white;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+}
+
+.flex-center-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.block-text {
+    margin:0 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.block-header {
+    margin-bottom: 25px;
+    font-size: 60px;
+}
+
+.text-block {
+    margin-top: 180px;
+}
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
