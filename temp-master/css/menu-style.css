@@ -1,0 +1,40 @@
+.menu-wrapper {
+    z-index: 2;
+    align-items: center;
+    position: fixed;
+	left: 40px;
+	right: 0;
+}
+
+.site-logo {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Damion';
+    height: inherit;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: inherit;
+}
+
+.menu-item {
+    display: inline-block;
+    height: 100%;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 47px 27px 17px;
+    border-radius:0 0  5px 5px;
+}
+.menu-item:hover,
+.menu-active {
+    text-decoration: none;
+    color: white;
+    background: rgba(255, 255, 255, .5);
+}
+
+

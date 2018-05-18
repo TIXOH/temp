@@ -1,0 +1,140 @@
+contacts {
+    width: 100%;
+    height: 100%;
+    background: url(about-bg.png) no-repeat center, #75b4aa;
+    font-size: 16px;
+    &__text-block {
+        margin-bottom: 105px;
+    }
+    &__info {
+        font-weight: 400;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        line-height: 1.3;
+        margin-bottom: 85px;
+        &-item {
+            display: flex;
+            flex-direction: column;
+            width: 48%;
+            height: 270px;
+        }
+    }
+    &__location-header {
+        font-size: 30px;
+        margin-bottom: 26px;
+    }
+    &__location-items {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: inherit;
+    }
+    &__location-info {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &__company-name {
+            font-size: 20px;
+            color: #c0dfda;
+            margin-bottom: 9px;
+        }
+        &__company-address {
+            line-height: 1.5;
+        }
+        &__company-contacts td:first-child {
+            color: #d0efea;
+        }
+    }
+    &__form {
+        height: 350px;
+    }
+}
+
+.input-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    * {
+        height: 40px;
+        width: 48%;
+    }
+}
+
+.input {
+    border-radius: 4px;
+    background-color: rgb( 104, 160, 151);
+    border: none;
+    padding-left: 20px;
+    &:focus {
+        background: white;
+        color: #82c8bd;
+    }
+}
+
+::placeholder {
+    color: #82c8bd;
+}
+
+.form {
+    &__input-text {
+        width: 100%;
+        padding-top: 10px;
+        height: 160px;
+        resize: none;
+        margin-bottom: 35px;
+    }
+    &__intput-btn {
+        width: 260px;
+        border-radius: 4px;
+        background-color: rgb( 223, 92, 100);
+        border: none;
+        height: 45px;
+        font-size: 26px;
+        font-weight: 400;
+        box-shadow: 0px 4px 4px 0px rgba(178, 74, 80, 1);
+        color: white;
+    }
+    &__intput-btn:hover {
+        animation: 1500ms ease 0s normal none 1 running shake;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    10% {
+        transform: rotateZ(-15deg);
+    }
+    20% {
+        transform: rotateZ(12deg);
+    }
+    30% {
+        transform: rotateZ(-10deg);
+    }
+    40% {
+        transform: rotateZ(7.5deg);
+    }
+    50% {
+        transform: rotateZ(-6deg);
+    }
+    60% {
+        transform: rotateZ(5deg);
+    }
+    70% {
+        transform: rotateZ(-4.28571deg);
+    }
+    80% {
+        transform: rotateZ(3.75deg);
+    }
+    90% {
+        transform: rotateZ(-3.33333deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
